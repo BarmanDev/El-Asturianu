@@ -1,0 +1,14 @@
+# Con # podemos crear comentarios para que el robot lo ignore
+
+#Ruta del archivo xml donde estan los ficheros que queremos que los bots puedan mirar
+Sitemap: https://www.sideriaasturiano.com/sitemap.xml
+# Esto se aplica para todos los robots
+User-agent: *
+#Permito que vean todos los archivos de view de la carpeta MVC
+Allow: /View/
+#No permito entrar a la carpeta controlador
+Disallow: /Controller/
+
+#Esto solo para bing, no permite entrar en la carpeta Model
+User_agent: Bingbot
+Disallow /Model/

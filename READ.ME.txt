@@ -1,0 +1,9 @@
+Usuario de prueba:
+
+usuario    -> prueba
+contraseña -> prueba
+
+Usuario administrador
+
+Usuario    -> admin
+Contraseña -> admin
